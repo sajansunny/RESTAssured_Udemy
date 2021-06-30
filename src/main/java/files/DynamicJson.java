@@ -9,6 +9,6 @@ public class DynamicJson {
     public void addBook(){
         RestAssured.baseURI = "http://216.10.245.166";
         given().header("Content-Type","application/json").body(Payload.AddBook())
-                .when().post("Library/Addbook.php")
+                .when().post("Library/Addbook.php");
     }
 }

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="RESTAssured_Udemy" />
         <module name="RSA_Maps_Test" />
       </profile>
     </annotationProcessing>

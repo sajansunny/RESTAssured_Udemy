@@ -27,5 +27,6 @@ public class SumValidation {
         }
         System.out.println(actualTotal);
         Assert.assertEquals(actualTotal,totalAmount);
+        //comment for sample commit
     }
 }
